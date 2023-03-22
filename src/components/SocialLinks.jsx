@@ -2,6 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
+
 const SocialLinks = () => {
   const links = [
     {
@@ -36,6 +38,16 @@ const SocialLinks = () => {
 
     {
       id: 4,
+      child: (
+        <>
+         Instagram <FaInstagram size={25} />
+        </>
+      ),
+      href: "https://www.instagram.com/veloxy_playz/",
+    },
+
+    {
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={25} />
