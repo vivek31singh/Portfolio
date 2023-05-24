@@ -1,7 +1,7 @@
 import React from "react";
 import spotify from "../assets/spotify.png";
 import Weather_forcast from "../assets/portfolio/reactWeather.png"
-
+import Cosmic_Reactors from "../assets/Clouds_Milky_Way.jpg"
 const Portfolio = () => {
   const portfolios = [
     {
@@ -16,6 +16,12 @@ const Portfolio = () => {
       src: Weather_forcast,
       href1: "https://react-weatherforcast.netlify.app/",
       href2: "https://github.com/vivek31singh/Weather-forcast-application.git",
+    },
+    {
+      id: 3,
+      src: Cosmic_Reactors,
+      href1: "https://cosmos-reactor.netlify.app/",
+      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
     }
    
   ];
