@@ -1,7 +1,12 @@
 import React from "react";
 import spotify from "../assets/spotify.png";
-import Weather_forcast from "../assets/portfolio/reactWeather.png"
-import Cosmic_Reactors from "../assets/Clouds_Milky_Way.jpg"
+import Weather_forcast from "../assets/portfolio/reactWeather.png";
+import Cosmic_Reactors from "../assets/Clouds_Milky_Way.jpg";
+import Instagram_Clone from "../assets/Instagram_Clone.png";
+import WhatsApp_Clone from "../assets/WhatsApp_Clone.png";
+import YouTube_Clone from "../assets/YouTube_Clone.png";
+import Dashboard from "../assets/E-dashboard.png";
+
 const Portfolio = () => {
   const portfolios = [
     {
@@ -19,11 +24,34 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: YouTube_Clone,
+      href1: "https://cosmos-reactor.netlify.app/",
+      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
+    },
+    {
+      id: 4,
+      src: Instagram_Clone,
+      href1: "https://cosmos-reactor.netlify.app/",
+      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
+    },
+    {
+      id: 5,
       src: Cosmic_Reactors,
       href1: "https://cosmos-reactor.netlify.app/",
       href2: "https://github.com/vivek31singh/Cosmos_Reactors",
-    }
-   
+    },
+    {
+      id: 6,
+      src: Dashboard,
+      href1: "https://cosmos-reactor.netlify.app/",
+      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
+    },
+    {
+      id: 7,
+      src: WhatsApp_Clone,
+      href1: "https://cosmos-reactor.netlify.app/",
+      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
+    },
   ];
 
   return (
@@ -40,7 +68,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src , href1 , href2 }) => (
+          {portfolios.map(({ id, src, href1, href2 }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -48,16 +76,18 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href={href1}>Demo</a>
-                  
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  {" "}
+                  <a href={href1}>Demo</a>
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href={href2}>Code</a>
-                  
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  {" "}
+                  <a href={href2}>Code</a>
                 </button>
               </div>
             </div>
           ))}
-          </div>
+        </div>
       </div>
     </div>
   );

@@ -12,13 +12,10 @@ const Home = () => {
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
         <h2 className="text-4xl sm:text-7xl pt-32 font-bold text-white">
-          I'm a Frontend Developer
+          I'm a MERN Developer
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
-            Hi there! My name is vivek and I'm a final year BCA student with a
-            passion for frontend development. As an aspiring developer, I am
-            constantly learning and growing my skills to create visually
-            appealing and user-friendly websites.
+        Hey there! I'm Vivek, a recent graduate with a BCA degree and a fervent interest in MERN full-stack development. I am enthusiastic about creating smooth user experiences and building robust applications. With a comprehensive focus on both frontend and backend technologies, I am committed to refining my skills to develop dynamic and interactive web applications. Let's collaborate and code something extraordinary together!
           </p>
           <div>
             <Link

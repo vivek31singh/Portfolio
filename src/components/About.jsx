@@ -14,18 +14,10 @@ const About = () => {
       </div>
 
       <p className="text-x mt-5">
-          As a BCA final year student with a passion for frontend development, I
-          am excited to explore opportunities in the field and contribute my
-          skills to meaningful projects. My experience working on frontend
-          projects has taught me the importance of attention to detail and the
-          value of a strong work ethic. I am committed to delivering
-          high-quality work that meets the needs of clients and users alike. As
-          a hardworking and passionate individual, I am always looking to learn
-          and grow in my skills, and I welcome new challenges and opportunities
-          to expand my knowledge.
+      As a recent BCA graduate with a passion for both frontend and backend development, I am thrilled to explore opportunities in the field and contribute my skills to meaningful projects. My experience working on both frontend and backend projects has taught me the importance of attention to detail and the value of a strong work ethic. I am committed to delivering high-quality work that meets the needs of clients and users alike. As a hardworking and passionate individual, I am always looking to learn and grow in my skills, and I welcome new challenges and opportunities to expand my knowledge across the entire stack.
       </p>
 <p>
-          If you're looking for a dedicated and enthusiastic frontend developer
+          If you're looking for a dedicated and enthusiastic MERN developer
           to bring your projects to life, I would love to chat and see how I can
           contribute to your team. Thank you for considering my portfolio and
           for the opportunity to share my work with you.
