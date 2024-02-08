@@ -5,6 +5,10 @@ import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import GraphQl from "../assets/graphql.png"
+import MongoDB from "../assets/MongoDB.png"
+import Node from "../assets/node.png"
+import WebSocket from "../assets/WebSocket.png"
 
 const Experience = () => {
   const techs = [
@@ -48,6 +52,36 @@ const Experience = () => {
       src: github,
       title: "Github",
       style: "shadow-gray-400",
+    },
+    {
+      id: 7,
+      src: MongoDB,
+      title: "MongoDB",
+      style: "shadow-green-500",
+    },
+    {
+      id: 8,
+      src: GraphQl,
+      title: "GraphQl",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 9,
+      src: GraphQl,
+      title: "Express",
+      style: "shadow-purple-500",
+    },
+    {
+      id: 10,
+      src: Node,
+      title: "Node",
+      style: "shadow-green-300",
+    },
+    {
+      id: 11,
+      src: WebSocket,
+      title: "WebSocket",
+      style: "shadow-gray-500",
     },
   ];
 
