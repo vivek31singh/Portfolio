@@ -2,7 +2,7 @@ import React from "react";
 import spotify from "../assets/spotify.png";
 import Weather_forcast from "../assets/portfolio/reactWeather.png";
 import Cosmic_Reactors from "../assets/Clouds_Milky_Way.jpg";
-import Instagram_Clone from "../assets/Instagram_Clone.png";
+import Instagram_Clone from "../assets/instagram_Clone.png";
 import WhatsApp_Clone from "../assets/WhatsApp_Clone.png";
 import YouTube_Clone from "../assets/YouTube_Clone.png";
 import Dashboard from "../assets/E-dashboard.png";
