@@ -7,13 +7,15 @@ import WhatsApp_Clone from "../assets/WhatsApp_Clone.png";
 import YouTube_Clone from "../assets/YouTube_Clone.png";
 import Dashboard from "../assets/E-dashboard.png";
 
+
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: spotify,
-      href1: "",
-      href2: "https://github.com/vivek31singh/spotify-clone",
+      href1: "https://github.com/vivek31singh/Spotify_Clone",
+      href2: "https://github.com/vivek31singh/Spotify_Clone",
+      
     },
 
     {
@@ -25,14 +27,14 @@ const Portfolio = () => {
     {
       id: 3,
       src: YouTube_Clone,
-      href1: "https://cosmos-reactor.netlify.app/",
-      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
+      href1: "https://github.com/vivek31singh/YouTube-Web-Application-Clone",
+      href2: "https://github.com/vivek31singh/YouTube-Web-Application-Clone",
     },
     {
       id: 4,
       src: Instagram_Clone,
-      href1: "https://cosmos-reactor.netlify.app/",
-      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
+      href1: "https://github.com/vivek31singh/Instagram-Clone",
+      href2: "https://github.com/vivek31singh/Instagram-Clone"
     },
     {
       id: 5,
@@ -43,14 +45,14 @@ const Portfolio = () => {
     {
       id: 6,
       src: Dashboard,
-      href1: "https://cosmos-reactor.netlify.app/",
-      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
+      href1: "https://github.com/vivek31singh/E-Dashboard",
+      href2: "https://github.com/vivek31singh/E-Dashboard"
     },
     {
       id: 7,
       src: WhatsApp_Clone,
-      href1: "https://cosmos-reactor.netlify.app/",
-      href2: "https://github.com/vivek31singh/Cosmos_Reactors",
+      href1: "https://github.com/vivek31singh/WhatsApp-Clone-Full-Stack",
+      href2: "https://github.com/vivek31singh/WhatsApp-Clone-Full-Stack",
     },
   ];
 
@@ -78,11 +80,11 @@ const Portfolio = () => {
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   {" "}
-                  <a href={href1}>Demo</a>
+                  <a href={href1} target="_blank">Demo</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   {" "}
-                  <a href={href2}>Code</a>
+                  <a href={href2} target="_blank">Code</a>
                 </button>
               </div>
             </div>
