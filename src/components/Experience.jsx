@@ -3,9 +3,11 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
+import Redux from "../assets/Redux.png"
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import GraphQl from "../assets/graphql.png"
+import Express from "../assets/Express.png"
 import MongoDB from "../assets/MongoDB.png"
 import Node from "../assets/node.png"
 import WebSocket from "../assets/WebSocket.png"
@@ -39,46 +41,52 @@ const Experience = () => {
       title: "React",
       style: "shadow-blue-600",
     },
-
     {
       id: 5,
+      src: Redux,
+      title: "Redux",
+      style: "shadow-purple-400",
+    },
+
+    {
+      id: 6,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
 
     {
-      id: 6,
+      id: 7,
       src: github,
       title: "Github",
       style: "shadow-gray-400",
     },
     {
-      id: 7,
+      id: 8,
       src: MongoDB,
       title: "MongoDB",
       style: "shadow-green-500",
     },
     {
-      id: 8,
+      id: 9,
       src: GraphQl,
       title: "GraphQl",
       style: "shadow-purple-500",
     },
     {
-      id: 9,
-      src: GraphQl,
-      title: "Express",
-      style: "shadow-purple-500",
-    },
-    {
       id: 10,
-      src: Node,
-      title: "Node",
-      style: "shadow-green-300",
+      src: Express,
+      title: "Express JS",
+      style: "shadow-gray-500",
     },
     {
       id: 11,
+      src: Node,
+      title: "Node JS",
+      style: "shadow-green-300",
+    },
+    {
+      id: 12,
       src: WebSocket,
       title: "WebSocket",
       style: "shadow-gray-500",
