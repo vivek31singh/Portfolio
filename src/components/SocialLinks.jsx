@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
-import resume from "../assets/vivek_resume.pdf"
+import resume from "../files/Vivek Singh Resume.pdf";
 const SocialLinks = () => {
   const links = [
     {
@@ -40,7 +40,7 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-         Instagram <FaInstagram size={25} />
+          Instagram <FaInstagram size={25} />
         </>
       ),
       href: "https://www.instagram.com/veloxy_playz/",
