@@ -2,8 +2,12 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
+import typescript from "../assets/typescript.jpeg";
 import reactImage from "../assets/react.png";
+import nextjs from "../assets/nextjs.png";
 import Redux from "../assets/Redux.png"
+import zustand from "../assets/zustand.png"
+import recoil from "../assets/recoil.png"
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import GraphQl from "../assets/graphql.png"
@@ -34,59 +38,83 @@ const Experience = () => {
       title: "Javascript",
       style: "shadow-yellow-500",
     },
-
     {
       id: 4,
+      src: typescript,
+      title: "Typescript",
+      style: "shadow-yellow-500",
+    },
+
+    {
+      id: 5,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 6,
+      src: nextjs,
+      title: "Nextjs",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 7,
       src: Redux,
       title: "Redux",
       style: "shadow-purple-400",
     },
+    {
+      id: 8,
+      src: zustand,
+      title: "Zustand",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 9,
+      src: recoil,
+      title: "Recoil",
+      style: "shadow-purple-400",
+    },
 
     {
-      id: 6,
+      id: 10,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
 
     {
-      id: 7,
+      id: 11,
       src: github,
       title: "Github",
       style: "shadow-gray-400",
     },
     {
-      id: 8,
+      id: 12,
       src: MongoDB,
       title: "MongoDB",
       style: "shadow-green-500",
     },
     {
-      id: 9,
+      id: 13,
       src: GraphQl,
       title: "GraphQl",
       style: "shadow-purple-500",
     },
     {
-      id: 10,
+      id: 14,
       src: Express,
       title: "Express JS",
       style: "shadow-gray-500",
     },
     {
-      id: 11,
+      id: 15,
       src: Node,
       title: "Node JS",
       style: "shadow-green-300",
     },
     {
-      id: 12,
+      id: 16,
       src: WebSocket,
       title: "WebSocket",
       style: "shadow-gray-500",
@@ -113,7 +141,7 @@ const Experience = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt="" className="w-20 h-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}

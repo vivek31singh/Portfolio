@@ -30,26 +30,6 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={25} />
-        </>
-      ),
-      href: "mailto:vickydigari6154@gmail.com",
-    },
-
-    {
-      id: 4,
-      child: (
-        <>
-          Instagram <FaInstagram size={25} />
-        </>
-      ),
-      href: "https://www.instagram.com/veloxy_playz/",
-    },
-
-    {
-      id: 5,
-      child: (
-        <>
           Resume <BsFillPersonLinesFill size={25} />
         </>
       ),

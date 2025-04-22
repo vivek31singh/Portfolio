@@ -15,7 +15,7 @@ const Home = () => {
           I'm a MERN Developer
         </h2>
         <p className="text-gray-500 py-4 max-w-md">
-        Hey there! I'm Vivek, a recent graduate with a BCA degree and a fervent interest in MERN full-stack development. I am enthusiastic about creating smooth user experiences and building robust applications. With a comprehensive focus on both frontend and backend technologies, I am committed to refining my skills to develop dynamic and interactive web applications. Let's collaborate and code something extraordinary together!
+        Hello! I'm Vivek, an MCA student and MERN stack developer passionate about building user-friendly and efficient web applications. I'm eager to enhance my skills in full-stack development. Let's work together to create something amazing!
           </p>
           <div>
             <Link
