@@ -21,8 +21,6 @@ const Portfolio = () => {
       id: 2,
       src: Proptzo,
       title: "Proptzo (real estate platform)",
-      href1: "https://www.linkedin.com/posts/vivek-singh05_nextjs-webrtc-graphql-activity-7310269514946867201-3WBq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD74NAkBZg7JkQ_15rxTY1S-2bAtiV_0Ako",
-      href2: "https://github.com/vivek31singh/codeIt",
       
     },
     {
